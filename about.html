@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | Kirikou Akili</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .hero-about {
+            /* EDITABLE: About Background */
+            background-image: url('images/kirikou_hero_img.jpg');
+        }
+        .bio-text {
+            font-size: 1.1rem;
+            color: var(--text-main);
+            margin-bottom: 30px;
+        }
+        .stats-box {
+            background: var(--blue-light);
+            padding: 40px;
+            border-radius: var(--border-radius);
+            margin: 40px 0;
+        }
+        .song-chip {
+            display: inline-block;
+            background: var(--white);
+            padding: 8px 20px;
+            border-radius: 50px;
+            margin: 5px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: var(--navy-dark);
+            border: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="index.html" class="logo">KIRIKOU AKILI</a>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Me</a>
+                <a href="partnership.html">Partnership</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <!-- Hamburger menu button, only visible on small screens (see style.css).
+                 Clicking it toggles the .active class on .nav-links via script.js -->
+            <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">&#9776;</button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero hero-about">
+            <div class="hero-content">
+                <p>The Story</p>
+                <h1>Kirikou Akili</h1>
+            </div>
+        </section>
+
+        <section class="container">
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center;">
+                <div>
+                    <h2 style="font-size: 2.5rem; margin-bottom: 25px;">A Journey of Resilience</h2>
+                    <div class="bio-text">
+                        <p>Kirikou Akili, whose real name is <strong>Youssufu Akbar Niyonkuru</strong>, is a Burundian rapper and singer from Ngozi known for blending Afrobeats, Bongo Flava, and hip-hop with a fast rap style.</p>
+                        <p style="margin-top: 20px;">His story is a powerful journey from difficult childhood conditions and street life to becoming one of Burundi’s most recognized contemporary artists.</p>
+                    </div>
+                </div>
+                <div style="background: var(--bg-gray); padding: 40px; border-radius: var(--border-radius);">
+                    <h3 style="margin-bottom: 20px;">Quick Facts</h3>
+                    <ul style="color: var(--text-main);">
+                        <li style="margin-bottom: 10px;"><strong>Real Name:</strong> Youssufu Akbar Niyonkuru</li>
+                        <li style="margin-bottom: 10px;"><strong>Origin:</strong> Ngozi, Burundi</li>
+                        <li style="margin-bottom: 10px;"><strong>Label:</strong> Billiman Boys</li>
+                        <li style="margin-bottom: 10px;"><strong>Discovery:</strong>Oscar then Bantu Bwoy Music</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section style="background: var(--navy-dark); color: white;">
+            <div class="container">
+                <div style="text-align: center; margin-bottom: 50px;">
+                    <h2 style="color: white; font-size: 2.5rem;">Music Career</h2>
+                    <p style="color: var(--text-muted);">From local popularity to regional recognition.</p>
+                </div>
+                
+                <div style="text-align: center;">
+                    <p style="font-size: 1.2rem; margin-bottom: 30px;">Breakthrough Single: <strong style="color: var(--blue-primary);">Soma Number</strong></p>
+                    
+                    <div style="margin-top: 20px;">
+                        <span class="song-chip">Washa</span>
+                        <span class="song-chip">My Story</span>
+                        <span class="song-chip">Binua</span>
+                        <span class="song-chip">Ready</span>
+                        <span class="song-chip">Kwepa</span>
+                        <span class="song-chip">AHA NIHE?</span>
+                        <span class="song-chip">Biraharawe</span>
+                        <span class="song-chip">Yarampaye</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container">
+            <h2 style="text-align: center; margin-bottom: 50px;">Concerts & Tours</h2>
+            <div style="background: var(--white); border: 1px solid #eee; padding: 50px; border-radius: var(--border-radius); box-shadow: var(--shadow);">
+                <div style="display: flex; justify-content: space-around; flex-wrap: wrap; gap: 30px;">
+                    <div style="text-align: center;">
+                        <h4 style="color: var(--blue-primary); margin-bottom: 10px;">Locations</h4>
+                        <p>Rwanda, Belgium, Switzerland</p>
+                    </div>
+                    <div style="text-align: center;">
+                        <h4 style="color: var(--blue-primary); margin-bottom: 10px;">Featured Event</h4>
+                        <p>"Let’s Celebrate" - Mundi Center, Kigali</p>
+                    </div>
+                    <div style="text-align: center;">
+                        <h4 style="color: var(--blue-primary); margin-bottom: 10px;">Date</h4>
+                        <p>October 19, 2025</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <h3 style="color: white; margin-bottom: 20px;">KIRIKOU AKILI</h3>
+            <p>Powered by <a href="https://hppeter.vercel.app/" class="studio-link" target="_blank">HP PETER TECH STUDIO</a></p>
+            <div class="copyright">&copy; 2026 Kirikou Akili. All Rights Reserved.</div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

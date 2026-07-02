@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kirikou Akili | Official Website</title>
+    <!-- Refined Styles -->
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .hero-home {
+            /* EDITABLE: Hero Background Image */
+            background-image: url('images/kirikou-akili.jpg');
+        }
+    </style>
+</head>
+<body>
+
+    <!-- FIXED NAVBAR -->
+    <header>
+        <nav>
+            <a href="index.html" class="logo">KIRIKOU AKILI</a>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Me</a>
+                <a href="partnership.html">Partnership</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <!-- Hamburger menu button, only visible on small screens (see style.css).
+                 Clicking it toggles the .active class on .nav-links via script.js -->
+            <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">&#9776;</button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- HERO SECTION: High impact presentation -->
+        <section class="hero hero-home">
+            <div class="hero-content">
+                <!-- EDITABLE: Hero text -->
+                <p>Burundian Artist & Performer</p>
+                <h1>Official website of Kirikou Akili.</h1>
+                <a href="#video" class="btn-primary">Watch Latest</a>
+            </div>
+        </section>
+
+        <!-- VIDEO SECTION: Modern wrapper -->
+        <section id="video" class="container">
+            <div class="video-wrapper">
+                <h2 style="color: white; margin-bottom: 25px; text-align: center;">Featured Video</h2>
+                <!-- EDITABLE: Video path -->
+                <video id="hero-video" controls poster="images/thumbnail.jpeg">
+                    <source src="audio/Kirikou-Akili.MP3" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </section>
+
+        <!-- SOCIAL MEDIA SECTION: Using local icon paths -->
+        <section class="container" style="padding-top: 50px;">
+            <div style="text-align: center; max-width: 700px; margin: 0 auto 50px;">
+                <h2 style="font-size: 2.5rem; margin-bottom: 15px;">Connect With Me</h2>
+                <p style="color: var(--text-muted);">Stay updated with my latest releases, tours, and daily life across all platforms.</p>
+            </div>
+
+            <div class="social-grid">
+                <!-- YOUTUBE -->
+                <a href="https://www.youtube.com/@kirikoua-kili4591" target="_blank" class="social-card">
+                    <!-- EDITABLE: Local icon path -->
+                    <img src="images/youtube.png" alt="YouTube">
+                    <h3>YouTube</h3>
+                    <span class="counter">+445K</span>
+                    <p style="font-size: 0.8rem; color: var(--text-muted);">Subscribers</p>
+                </a>
+
+                <!-- INSTAGRAM -->
+                <a href="https://www.instagram.com/kirikou_akili/reels/" target="_blank" class="social-card">
+                    <img src="images/instagram.png" alt="Instagram">
+                    <h3>Instagram</h3>
+                    <span class="counter">+145K</span>
+                    <p style="font-size: 0.8rem; color: var(--text-muted);">Followers</p>
+                </a>
+
+                <!-- TIKTOK -->
+                <a href="https://www.tiktok.com/@kirikouakili" target="_blank" class="social-card">
+                    <img src="images/tiktok.png" alt="TikTok">
+                    <h3>TikTok</h3>
+                    <span class="counter">+282K</span>
+                    <p style="font-size: 0.8rem; color: var(--text-muted);">Followers</p>
+                </a>
+
+                <!-- FACEBOOK -->
+                <a href="https://www.facebook.com/kirikouakili" target="_blank" class="social-card">
+                    <img src="images/facebook.png" alt="Facebook">
+                    <h3>Facebook</h3>
+                    <span class="counter">+350K</span>
+                    <p style="font-size: 0.8rem; color: var(--text-muted);">Followers</p>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER: Polished with copyright -->
+    <footer>
+        <div class="container">
+            <h3 style="color: white; margin-bottom: 20px;">KIRIKOU AKILI</h3>
+            <p style="max-width: 500px; margin: 0 auto 30px; color: var(--text-muted);">
+                Official artist website for Kirikou Akili. Follow for the latest updates on music and tours.
+            </p>
+            <p>Powered by <a href="https://hppeter.vercel.app/" class="studio-link" target="_blank">HP PETER TECH STUDIO</a></p>
+            
+            <div class="copyright">
+                &copy; 2026 Kirikou Akili. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

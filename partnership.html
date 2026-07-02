@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Partnership | Kirikou Akili</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .hero-partnership {
+            /* EDITABLE: Partnership Background */
+            background-image: url('images/kirikou_superbat.jpg');
+        }
+        .brand-showcase {
+            background: var(--navy-dark);
+            color: white;
+            padding: 80px 40px;
+            border-radius: var(--border-radius);
+            margin-top: -80px;
+            position: relative;
+            z-index: 10;
+        }
+        .brand-badge {
+            display: inline-block;
+            background: var(--blue-primary);
+            color: white;
+            padding: 5px 15px;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            font-weight: 700;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="index.html" class="logo">KIRIKOU AKILI</a>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Me</a>
+                <a href="partnership.html">Partnership</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <!-- Hamburger menu button, only visible on small screens (see style.css).
+                 Clicking it toggles the .active class on .nav-links via script.js -->
+            <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">&#9776;</button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero hero-partnership">
+            <div class="hero-content">
+                <p>Collaborations</p>
+                <h1>Brand Partnerships</h1>
+            </div>
+        </section>
+
+        <section class="container">
+            <div class="brand-showcase">
+                <div class="brand-badge">Official Ambassador</div>
+                <h2 style="color: white; font-size: 2.5rem; margin-bottom: 20px;">Superbat</h2>
+                <p style="color: var(--blue-light); font-size: 1.2rem; margin-bottom: 30px;">Leading the way in energy and performance.</p>
+                
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 30px; margin-top: 40px;">
+                    <div style="background: rgba(255,255,255,0.05); padding: 25px; border-radius: 8px;">
+                        <h4 style="color: var(--blue-primary); margin-bottom: 10px;">Recognition</h4>
+                        <p style="font-size: 0.9rem;">Winner of the 2025 Super Beat contest, receiving a car prize for excellence.</p>
+                    </div>
+                    <div style="background: rgba(255,255,255,0.05); padding: 25px; border-radius: 8px;">
+                        <h4 style="color: var(--blue-primary); margin-bottom: 10px;">Agreement</h4>
+                        <p style="font-size: 0.9rem;">Signed a long-term brand promotion agreement as the official Brand Ambassador.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container">
+            <div style="text-align: center; margin-bottom: 60px;">
+                <h2>Work With Us</h2>
+                <p style="color: var(--text-muted); max-width: 600px; margin: 20px auto 0;">We are looking for partners who share our vision of creativity and excellence.</p>
+            </div>
+
+            <div class="social-grid">
+                <div class="social-card">
+                    <h4 style="margin-bottom: 15px;">Brand Collaborations</h4>
+                    <p style="font-size: 0.9rem; color: var(--text-muted);">Integrated marketing campaigns and brand storytelling.</p>
+                </div>
+                <div class="social-card">
+                    <h4 style="margin-bottom: 15px;">Sponsorships</h4>
+                    <p style="font-size: 0.9rem; color: var(--text-muted);">Event-based sponsorships and tour partnerships.</p>
+                </div>
+                <div class="social-card">
+                    <h4 style="margin-bottom: 15px;">Event Bookings</h4>
+                    <p style="font-size: 0.9rem; color: var(--text-muted);">Professional performances for corporate and private events.</p>
+                </div>
+                <div class="social-card">
+                    <h4 style="margin-bottom: 15px;">Commercials</h4>
+                    <p style="font-size: 0.9rem; color: var(--text-muted);">Voice-overs, acting, and musical endorsements.</p>
+                </div>
+            </div>
+
+            <div style="text-align: center; margin-top: 80px;">
+                <a href="contact.html" class="btn-primary">Inquire for Partnership</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <h3 style="color: white; margin-bottom: 20px;">KIRIKOU AKILI</h3>
+            <p>Powered by <a href="https://hppeter.vercel.app/" class="studio-link" target="_blank">HP PETER TECH STUDIO</a></p>
+            <div class="copyright">&copy; 2026 Kirikou Akili. All Rights Reserved.</div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
